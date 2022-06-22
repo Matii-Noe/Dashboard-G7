@@ -55,7 +55,7 @@ function SideBar() {
         <li className="nav-item active">
           <Link className="nav-link" to="/">
             <i className="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard - 40trip </span>
+            <span className='dash-40trip'>Dashboard - 40trip </span>
           </Link>
         </li>
 
@@ -63,13 +63,13 @@ function SideBar() {
         <hr className="sidebar-divider" />
 
         {/* Heading */}
-        <div className="sidebar-heading">Acciones</div>
+        <div className="acciones">Acciones</div>
 
         {/* Nav Item - Pages */}
         <li className="nav-item">
           <Link className="nav-link" to="/Catalog">
             <i className="fas fa-fw fa-folder"></i>
-            <span>Catálogo</span>
+            <span className='font-black'>Catálogo</span>
           </Link>
         </li>
 
@@ -77,7 +77,7 @@ function SideBar() {
         <li className="nav-item">
           <Link className="nav-link" to="/GenresInDb">
             <i className="fas fa-fw fa-folder"></i>
-            <span>Categories</span>
+            <span className='font-black'>Categorias</span>
           </Link>
         </li>
 
@@ -85,7 +85,7 @@ function SideBar() {
         <li className="nav-item">
           <Link className="nav-link" to="/LastProduct">
             <i className="fas fa-fw fa-chart-area"></i>
-            <span>Último producto</span>
+            <span className='font-black'>Último producto</span>
           </Link>
         </li>
 
@@ -93,7 +93,7 @@ function SideBar() {
         <li className="nav-item nav-link">
           <Link className="nav-link" to="/ContentRowCategories">
             <i className="fas fa-fw fa-table"></i>
-            <span>Categorías </span>
+            <span className='total'>Total de productos/usuarios </span>
           </Link>
         </li>
 

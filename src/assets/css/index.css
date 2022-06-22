@@ -2,6 +2,31 @@
   background-color: #E4D6A7;
 }
 
+.sidebar-brand-icon{
+  margin-top: 4rem;
+  max-width: 140px;
+  margin-bottom: 2rem;
+}
+
+.acciones {
+  color: black;
+  margin-left: 4.9rem;
+}
+
+.total {
+  color: black;
+  font-weight: 600;
+}
+
+.dash-40trip, .font-black {
+  color: black;
+  font-weight: 600;
+}
+
+.nav-link{
+  margin-top: 0.2rem;
+  padding: 0;
+}
 
 .contact-us {
   display: flex;
