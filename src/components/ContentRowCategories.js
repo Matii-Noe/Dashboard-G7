@@ -9,7 +9,10 @@ function ContentRowCategories() {
   const getUsers = () => {
     fetch('http://localhost:3007/api/users')
       .then((response) => response.json())
-      .then((data) => setUsers(data))
+      .then((data) => {
+        console.log(data.data)
+        setUsers(data.data)
+      })
   }
   useEffect(() => {
     getUsers()
@@ -45,7 +48,7 @@ function ContentRowCategories() {
   let CategoryCount = {
     title: 'Total de categorías',
     color: 'warning',
-    cuantity: 3, 
+    cuantity: 3,
     icon: 'fas fa-restroom',
   }
 

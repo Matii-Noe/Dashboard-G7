@@ -7,7 +7,8 @@ function LastProduct() {
     const getProducts = () => {
         fetch('http://localhost:3007/api/products')
             .then((response) => response.json())
-            .then((products) => setProducts(products.data))
+            .then((products) => {console.log(products.data)
+                setProducts(products.data)})
     }
     useEffect(() => {
         getProducts()
