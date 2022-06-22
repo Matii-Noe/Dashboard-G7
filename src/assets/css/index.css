@@ -1,0 +1,58 @@
+.fondo-sidebar {
+  background-color: #E4D6A7;
+}
+
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 300px;
+  width: 100%;
+}
+
+h5.card-title {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: #2c3031;
+}
+
+
+.card-body {
+  background-color: rgb(214, 214, 214);
+  font-weight: bold;
+  color: black;
+}
+
+.contenedor-catalog {
+  background-size: contain;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-catalog {
+  background-color: rgb(245, 245, 245);
+  width: 20%;
+  margin: 15px;
+  min-width: 200px;
+}
+
+.card-prodSelect {
+  min-height: 80px;
+
+}
+
+.card-prodSelect h5 {
+  text-align: center;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
