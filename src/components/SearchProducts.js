@@ -9,7 +9,9 @@ function SearchProducts() {
   useEffect(() => {
     fetch('http://localhost:3007/api/products/')
       .then((res) => res.json())
-      .then((res) => { })
+      .then((res) => {
+        setproducts(res.Search)
+      })
   })
 
   function sumbitForm(e) {

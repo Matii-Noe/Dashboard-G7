@@ -10,7 +10,6 @@ function ContentRowCategories() {
     fetch('http://localhost:3007/api/users')
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.data)
         setUsers(data.data)
       })
   }
@@ -21,7 +20,7 @@ function ContentRowCategories() {
   const getProducts = () => {
     fetch('http://localhost:3007/api/products')
       .then((response) => response.json())
-      .then((data) => setProducts(data))
+      .then((data) => setProducts(data.data))
   }
   useEffect(() => {
     getProducts()
@@ -30,7 +29,7 @@ function ContentRowCategories() {
   let productCount = {
     title: 'Total de productos',
     color: 'primary',
-    cuantity: products.count || "loading...",
+    cuantity: products.length || "loading...",
     icon: 'fas fa-gift',
   }
 
@@ -39,7 +38,7 @@ function ContentRowCategories() {
   let userCount = {
     title: 'Total de usuarios',
     color: 'success',
-    cuantity: users.count,
+    cuantity: users.length,
     icon: 'fas fa-user',
   }
 
