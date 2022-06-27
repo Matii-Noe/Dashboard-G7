@@ -2,7 +2,6 @@ import React from 'react'
 import ContentRowCenter from './ContentRowCenter'
 import ContentRowCategories from './ContentRowCategories'
 import Chart from './Chart'
-import SearchProducts from './SearchProducts'
 
 function ContentRowTop() {
   return (
@@ -16,8 +15,6 @@ function ContentRowTop() {
         <ContentRowCategories />
         <ContentRowCenter />
         <Chart />
-
-        <SearchProducts />
       </div>
 
     </React.Fragment>
