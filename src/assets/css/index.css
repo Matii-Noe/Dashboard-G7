@@ -46,7 +46,7 @@ h5.card-title {
 
 
 .card-body {
-  background-color: #009FB7;
+  background-color: rgb(214, 214, 214);
   font-weight: bold;
   color: black;
 }
@@ -60,7 +60,7 @@ h5.card-title {
 }
 
 .card-catalog {
-  background-color: #009FB7;
+  background-color: rgb(245, 245, 245);
   width: 20%;
   margin: 15px;
   min-width: 200px;
